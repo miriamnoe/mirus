@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap');
+
+@font-face {
+    font-family: "Roboto" ;
+    src: url("../fonts/roboto-italic.ttf");
+}
+img {
+    max-width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+.header {
+    background-color: beige;
+    padding: .5rem 2rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+.menu-1 {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.logo {
+    width: 4rem;
+}
+
+
+a:hover {
+    font-weight: bold;
+    padding: 20px;
+    background-color: pink;
+    color: blue;
+
+}
+/************************************************************************
+/******************index*************************************/
+
+.hero {
+    height: 100vh;
+
+    background-image: url("../img/conj3maria4-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor1 {
+    width: 600px;
+    height: 600px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 100 px 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    
+    
+}
+.hero-content {
+    width: 60%;
+    background-color: rgba(245, 245, 220, 0.671);
+    backdrop-filter: blur(.3px);
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.bienvenida {
+    font-size: 5rem;
+}
+.hero-text {
+
+    font-size: 2rem;
+}
+/************************************************************************
+/******************foto*************************************/
+
+.fotos.ini {
+    padding: 4rem;
+    display: flex;
+    gap: 3rem;
+}
+.fotos1-ini {
+    flex: 1;
+    background-color: rgb(238, 238, 6);
+    border-radius: .5rem;
+    overflow: hidden;
+    display: grid;
+}
+.foto-inicio {
+    width: 100%;
+}
+.foto-info {
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+
+}
+
+
+
+.opcion {
+    margin-left: 30px;
+    list-style-type:"💖";
+    background-color: greenyellow;
+    margin-right: 10px;
+    font-family: "Roboto Mono", monospace;
+}
+.variedad {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    list-style-type:"👕";
+    font-family: "Roboto"
+}
+.tipo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Pijamas {
+    width: 300px;
+    background-color: black;
+}
+.imagen-principal {
+   width: 50px;
+   height: 50px;
+   margin: 20px;
+   
+}
+.imagen-primaria {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    border-top: 8px inset grey;
+    border-left: 8px inset gray;
+}
+.imagen-secundaria { 
+    margin-left: 50px;
+    margin-bottom: 50px;
+   
+
+}
+.inicio {
+   margin: 10px 300px 10px 600px;
+}
+.bienvenida {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+   
+}
+.subtitulo-inicio {
+    margin-left: 400px;
+    background-color: transparent;
+    width: 320px;
+    border: 8px inset antiquewhite;
+}
+.contenedor {
+    margin-top: 10px;
+    margin-left: 450px;
+}
+.subtitulo-segundo {
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 5px;
+    
+}
+.sub-3 {
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.des {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.p-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 600px;
+}
+.na-2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+ /************************************************************
+      como comprar
+ ***************************************************/     
+
+
+.cate {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+
+}
+.como-comprar {
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+.descri {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.foo {
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+/*********************************************
+           contacto
+/*******************************************/
+
+.d-flexjustify-content-centeralign-items-centerfull-height {
+    margin-top: 500px;
+}  
