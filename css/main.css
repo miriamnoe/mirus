@@ -92,20 +92,185 @@ a:hover {
 }
 
 .conbox {
+    margin-top: 100px;
+    margin-left: 100px;
+    
     display: grid;
     width: 800px;
     height: 400px;
-
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     grid-template-areas: 
-      "talle1 talle2 talle3 talle4 talle5 talle6 talle7 talle8"
-      "talle1 talle2 talle3 talle4 talle5 talle6 talle7 talle8"   
-      "B B B B B B B B"
-      "C C C C C C C C"
+      ""
+      ""
+      ""
+      "";
+      gap: 5px;
 }
+
 .talle {
-    border: 1px solid grey;
+    border: 1px solid rgb(196, 23, 23);
+    
+    
+}
+.talle1 {
+    grid-area: 1;
+    
+    
+   
+}
+.talle2 {
+    grid-area: 2;
+
+}
+.talle3 {
+    grid-area: 3;
+
+}
+.talle4 {
+    grid-area: 4;
+
+}
+.talle5 {
+    grid-area: 5;
+
+}
+.talle6 {
+    grid-area: 6;
+
+}
+.talle7 {
+    grid-area: 7;
+
+}
+.talle8 {
+    grid-area: 8;
+
+}
+.talle9 {
+   grid-area: 9;
+}
+.talle10 {
+    grid-area: 10;
+
+}
+.talle11 {
+    grid-area: 11;
+
+}
+.talle12 {
+    grid-area: 12;
+
+}
+.talle13 {
+    grid-area: 13;
+
+}
+.talle14 {
+    grid-area: 14;
+
+}
+.talle15 {
+    grid-area: 15;
+
+}
+.talle16 {
+    grid-area: 16;
+
+}
+.talle17 {
+    grid-area: 17;
+
+}
+.talle18 {
+    grid-area: 18;
+
+}
+.talle19 {
+    grid-area: 19;
+
+}
+.talle20 {
+    grid-area: 20;
+
+}
+.talle21 {
+    grid-area: 21;
+
+}
+.talle22 {
+    grid-area: 22;
+
+}
+.talle23 {
+    grid-area: 23;
+
+}
+.talle24 {
+    grid-area: 24;
+
+}
+.talle25 {
+    grid-area: 25;
+
+}
+.talle26 {
+    grid-area: 26;
+
+}
+.talle27 {
+    grid-area: 27;
+
+}
+.talle28 {
+    grid-area: 28;
+
+}
+.talle29 {
+    grid-area: 29;
+
+}
+.talle30 {
+    grid-area: 30;
+
+}
+.talle31 {
+    grid-area: 31;
+
+}
+.talle32 {
+    grid-area: 32;
+
+}
+@media screen and (max-width: 480px) {
+   .conbox {
+
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-areas: 
+      "talle1"
+      "talle2"
+      "talle3"
+      "talle4"
+      "talle5"
+      "talle6"
+      "talle7"
+      "talle8"
+      "talle9"
+      "talle10"
+      "talle11"
+      "talle12"
+      "talle13"
+      "talle14"
+      "talle15"
+      "talle16";
+
+   }
+    }
+    .conbox > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
 }
 /************************************************************************
 /******************foto*************************************/
