@@ -22,7 +22,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position:relative;
     width: 100%;
 }
 .links {
@@ -78,9 +78,9 @@ a:hover {
 }
 .hero-content {
     width: 60%;
-    background-color: rgba(245, 245, 220, 0.671);
+    background-color: rgba(241, 217, 188, 0.671);
     backdrop-filter: blur(.3px);
-    padding: 3rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 .bienvenida {
@@ -89,6 +89,23 @@ a:hover {
 .hero-text {
 
     font-size: 2rem;
+}
+
+.conbox {
+    display: grid;
+    width: 800px;
+    height: 400px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+      "talle1 talle2 talle3 talle4 talle5 talle6 talle7 talle8"
+      "talle1 talle2 talle3 talle4 talle5 talle6 talle7 talle8"   
+      "B B B B B B B B"
+      "C C C C C C C C"
+}
+.talle {
+    border: 1px solid grey;
 }
 /************************************************************************
 /******************foto*************************************/
