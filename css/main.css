@@ -4,6 +4,9 @@
     font-family: "Roboto" ;
     src: url("../fonts/roboto-italic.ttf");
 }
+@media screen and (max-width: 480px) {
+    
+}
 img {
     max-width: 100%;
 }
@@ -288,7 +291,7 @@ a:hover {
     display: grid;
 }
 .foto-inicio {
-    width: 100%;
+    width: 50%;
 }
 .foto-info {
     padding: 2rem;
