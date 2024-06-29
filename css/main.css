@@ -427,7 +427,7 @@ a:hover {
 @media screen and (max-width: 480px) {
     .header {
         background-color: rgb(233, 233, 185);
-    padding: 
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -522,4 +522,6 @@ a:hover {
        "talle15"
        "talle16";
  
-    } 
+    }
+}
+
