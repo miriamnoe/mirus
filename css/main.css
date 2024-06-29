@@ -4,9 +4,7 @@
     font-family: "Roboto" ;
     src: url("../fonts/roboto-italic.ttf");
 }
-@media screen and (max-width: 480px) {
-    
-}
+
 img {
     max-width: 100%;
 }
@@ -50,8 +48,6 @@ a:hover {
     color: blue;
 
 }
-/************************************************************************
-/******************index*************************************/
 
 .hero {
     height: 100vh;
@@ -69,31 +65,96 @@ a:hover {
     align-items: center;
 
 }
-.contenedor1 {
-    width: 600px;
-    height: 600px;
-    border: 2px solid red;
-    display: grid;
-    grid-template-columns: 100 px 100px 100px 100px;
-    grid-template-rows: 100px 100px;
-    
-    
-}
 .hero-content {
     width: 60%;
     background-color: rgba(241, 217, 188, 0.671);
     backdrop-filter: blur(.3px);
     padding: 1rem;
     border-radius: 1rem;
+    flex-direction: column;
+    display: flex;
 }
+
 .bienvenida {
-    font-size: 5rem;
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+    display: flex;
 }
 .hero-text {
-
+    margin-left: 250px;
     font-size: 2rem;
+    display: flex;
 }
 
+.subtitulo-inicio {
+    margin-left: 250px;
+    background-color: transparent;
+    width: 320px;
+    border: 5px inset antiquewhite;
+    display: flex;
+}
+.contenedor {
+    margin-top: 10px;
+    margin-left: 300px;
+    display: flex;
+}
+.fotos-ini {
+    padding: 50px;
+    display: flex;
+
+}
+.fotos1-ini {
+    width: 100%;
+}
+.fotos1-ini {
+    width: 30%;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-inline: 1,5%;
+    flex: 1;
+}
+.foto-inicio {
+    width: 100%;
+
+}
+
+.foto-info {
+    
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+
+}
+.subtitulo-segundo {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 5px;
+    
+}
+.des {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.wpp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+}
+/*********************************************************************************
+/************** INDEX ************************************************************/
 .conbox {
     margin-top: 100px;
     margin-left: 100px;
@@ -245,66 +306,22 @@ a:hover {
     grid-area: 32;
 
 }
-@media screen and (max-width: 480px) {
-   .conbox {
 
-    grid-template-columns: 2fr;
-    grid-template-rows: repeat(16, 1fr);
-    grid-template-areas: 
-      "talle1"
-      "talle2"
-      "talle3"
-      "talle4"
-      "talle5"
-      "talle6"
-      "talle7"
-      "talle8"
-      "talle9"
-      "talle10"
-      "talle11"
-      "talle12"
-      "talle13"
-      "talle14"
-      "talle15"
-      "talle16";
-
-   }
-    }
-    .conbox > div {
+.conbox > div {
         display: flex;
         justify-content: center;
         align-items: center;    
 }
-/************************************************************************
-/******************foto*************************************/
-
-.fotos.ini {
-    padding: 4rem;
-    display: flex;
-    gap: 3rem;
-}
-.fotos1-ini {
-    flex: 1;
-    background-color: rgb(238, 238, 6);
-    border-radius: .5rem;
-    overflow: hidden;
+.contenedor1 {
+    width: 600px;
+    height: 600px;
+    border: 2px solid red;
     display: grid;
+    grid-template-columns: 100 px 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    
+    
 }
-.foto-inicio {
-    width: 50%;
-}
-.foto-info {
-    padding: 2rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: .5rem;
-    justify-content: center;
-
-}
-
-
 
 .opcion {
     margin-left: 30px;
@@ -348,37 +365,13 @@ a:hover {
 .inicio {
    margin: 10px 300px 10px 600px;
 }
-.bienvenida {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 200px;
-    margin-right: 100px;
-   
-}
-.subtitulo-inicio {
-    margin-left: 400px;
-    background-color: transparent;
-    width: 320px;
-    border: 8px inset antiquewhite;
-}
-.contenedor {
-    margin-top: 10px;
-    margin-left: 450px;
-}
-.subtitulo-segundo {
-    margin-top: 10px;
-    margin-left: 500px;
-    margin-right: 5px;
-    
-}
+
+
 .sub-3 {
     margin-top: 10px;
     margin-left: 200px;
 }
-.des {
-    margin-top: 10px;
-    margin-left: 150px;
-}
+
 
 .p-1 {
     margin-top: 20px;
@@ -390,9 +383,17 @@ a:hover {
     margin-bottom: 20px;
     margin-left: 300px;
 }
+.pie {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-block: 15px;
+}
  /************************************************************
       como comprar
  ***************************************************/     
+
+
 
 
 .cate {
@@ -422,4 +423,103 @@ a:hover {
 
 .d-flexjustify-content-centeralign-items-centerfull-height {
     margin-block: 1000px;
-}  
+} 
+@media screen and (max-width: 480px) {
+    .header {
+        background-color: rgb(233, 233, 185);
+    padding: 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+    width: 100%;
+      }
+    
+    .hero {
+    height: 100vh;
+
+    background-image: url("../img/conj3maria4-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+    .fotos1-ini {
+        width: 30%;
+        background-color: rgb(255, 0, 179);
+        padding: 10px;
+        border-radius: 15px;
+        display: inline-block;
+        margin-inline: 1,5%;
+        flex: 1;
+    }
+    .hero-content {
+        width: 60%;
+        background-color: rgba(241, 217, 188, 0.671);
+        backdrop-filter: blur(.3px);
+       
+        border-radius: 1rem;
+        display: flex;  
+      
+        flex: 1;
+    }
+
+    .bienvenida {
+        display: flex;
+        font-size: 1rem;
+        flex: 1;
+    }
+    .hero-text {
+        display: flex;
+    
+        font-size: 1rem;
+        flex: 1;
+    }
+    .subtitulo-inicio {
+        display: flex;
+    
+        font-size: 2rem;
+        flex: 1;
+        
+  
+    }
+    .contenedor {
+        margin-top: 10px;
+        margin-left: 200px;
+        display: flex;
+        flex: 1;
+    }
+
+    
+}
+@media screen and (max-width: 480px) {
+    .conbox {
+ 
+     grid-template-columns: 2fr;
+     grid-template-rows: repeat(16, 1fr);
+     grid-template-areas: 
+       "talle1"
+       "talle2"
+       "talle3"
+       "talle4"
+       "talle5"
+       "talle6"
+       "talle7"
+       "talle8"
+       "talle9"
+       "talle10"
+       "talle11"
+       "talle12"
+       "talle13"
+       "talle14"
+       "talle15"
+       "talle16";
+ 
+    } 
