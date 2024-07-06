@@ -1,0 +1,22 @@
+
+$redes-sociales: (
+    facebook:#3b5998,
+    instagram:#c13584,
+);
+
+@each $red-social, $color in $redes-sociales {
+    .social-button-#{$red-social} {
+        background-color: $color;
+        padding: 12px 24px;
+        color: white;
+        text-transform: uppercase;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        text-decoration: none;
+
+        &:hover{
+            background-color: lighten($color, 10%);
+        }
+    }
+
+}

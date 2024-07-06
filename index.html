@@ -8,6 +8,8 @@
     <!--link bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!--enlace bootstrap-->
+    
     <!--link a estilos personales-->
     <link rel="stylesheet" href="./css">
     <link rel="shortcut icon" href="./img/mirus.jpg" type="image/x-icon">
@@ -15,58 +17,109 @@
 </head>
 
 <body>
-    
-
-    <header class="header">
-        <a href="./index.html">
-            <img class="logo" src="./img/mirus.jpg" alt="logo">
-        </a>
-        <nav class="menu">
-            <ul class="links">
-                <li class="menu-link">
-                    <a class="menu-1" href="./pages/productos.html">Productos</a>
-                </li>
-                <li class="menu-link">
-                    <a class="menu-1" href="./pages/quienes-somos.html">Quienes Somos</a>
-                </li>
-                <li class="menu-link">
-                    <a class="menu-1" href="./pages/guia-de-talles.html">Guía de Talles</a>
-                </li>
-                <li class="menu-link">
-                    <a class="menu-1" href="./pages/como-comprar.html">Como Comprar</a>
-                </li>
-
+  <!--====================================================
+  =                  Header                              =
+  =====================================================-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../img/mirus.jpg" width="50px" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/guia-de-talles.html">Guía de Talles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/como-comprar.html">Como Comprar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./pages/quienes-somos.html">Quienes Somos</a>
+              </li>
+                          
             </ul>
+          </div>
+        </div>
+      </nav>
 
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1 class="bienvenida">Bienvenido a Nuestra Tienda de Pijamas & Homewear</h1>
-                <p class="hero-text">Los más cómodos y suaves</p>
-                <h2 class="subtitulo-inicio">Descubre Nuestra Colección</h2>
-                <p class="contenedor">Los Más cómodos y Suaves</p>
-            </div>
-        </section>
+      <!-- Hero Image -->
+  <section >
+      <div class="hero d-flex justify-content-center align-items-center">
+        <div class="hero-content text-center">
+            <h1 class="bienvenida">Bienvenido a Nuestra Tienda de Pijamas & Homewear</h1>
+            <p class="hero-text">Los más cómodos y suaves</p>
+            <h2 class="subtitulo-inicio">Descubre Nuestra Colección</h2>
+            <p class="contenedor">Los Más cómodos y Suaves</p>
+        </div>
+      </div>
+  </section>
+  </header>
+     <section class="margin-section">
+           <h3 class="text-center mb-4">Cómodos</h3>
+               <div class="container row m-auto d-flex justify-content-center">
+                 <div class="col col-sm-4 col-md-8 col-lg-6">
+                  <p>Los pijamas más frescos y cómodos encontralos acá</p>
+               </div>
+      </section>
 
-        <section class="fotos-ini">
-            <div class="container-fluid">
-                <article class="fotos1-ini">
+  <section class="gallery">
+    <div class="gallery__item gallery__item--1"><img src="./img/conjfang9.jpg" alt="" class="gallery__img">
+    <div class="gallery__overlay">
+      <span class="gallery__text">Imagen 1</span>
+    </div>
+  </div>
 
-                    <img class="foto-inicio" src="./img/conj3maria4.jpg" alt="Conjunto maria 4" width="300px">
+    <div class="gallery__item gallery__item--2">
+      <img src="./img/conjfang3 (1).jpg" alt="" class="gallery__img">
+    <div class="gallery__overlay">
+      <span class="gallery__text">Imagen 2</span>
+    </div>
+  </div>
+
+
+    <div class="gallery__item gallery__item--3"><img src="./img/conj3maria4.jpg" alt="" class="gallery__img">
+    <div class="gallery__overlay">
+      <span class="gallery__text">Imagen 3</span>
+    </div>
+  </div>
+
+    <div class="gallery__item gallery__item--4"><img src="./img/conj3marias1.jpg" alt="" class="gallery__img">
+    <div class="gallery__overlay">
+      <span class="gallery__text">Imagen 4</span>
+    </div>
+  </div>
+
+    <div class="gallery__item gallery__item--5"><img src="./img/conj3marias5.jpg" alt="" class="gallery__img">
+    <div class="gallery__overlay">
+      <span class="gallery__text">Imagen 5</span>
+    </div>
+  </div>
+
+    <div class="gallery__item gallery__item--6"><img src="./img/conj3mariascomb3.jpg" alt="" class="gallery__img">
+    <div class="gallery__overlay">
+      <span class="gallery__text">Imagen 6</span>
+    </div>
+  </div>
+
+  </section>
+               <!--<div class="col col-sm-12 col-md-8 col-lg-6 m-auto">
+                <img class="img-fluid" src="./img/conj3maria4.jpg" alt="Conjunto maria 4" width="300px">
 
                     <div class="foto-info">
                         <h2 class="subtitulo-segundo">Conjunto Maria 4</h2>
                         <p class="des">Short Yersey Remera Oversize Blanco </p>
 
                     </div>
-
-
-                </article>
-                <article class="fotos1-ini">
-                    
-                        <img class="foto-inicio" src="./img/conj3marias1.jpg" alt="Conjunto maria 1" width="300px">
+                   
+                    <img class="foto-inicio" src="./img/conj3marias1.jpg" alt="Conjunto maria 1" width="300px">
 
                         <div class="foto-info">
                             <h2 class="subtitulo-segundo">Conjunto Maria 1</h2>
@@ -75,8 +128,7 @@
                         </div>
 
 
-                </article>
-                <article class="fotos1-ini">
+               
                     <img class="foto-inicio" src="./img/conj3mariascomb6 (1).jpg" alt="Conjunto maria 6" width="300px">
 
                     <div class="foto.info">
@@ -84,12 +136,13 @@
                         <p class="des">Short Yersey Remera Oversize Blanco </p>
 
                     </div>
+                  </div>
 
-            </div>
-            </article>
+            </div>-->
+           
 
 
-    </main>
+    
     <img class="wpp" src="./img/Recurso 1.png" alt="whatsApp">
     <main>
         <section>
@@ -103,9 +156,13 @@
         </section>
     </main>
     <footer class="pie">
+    
+       
+      </div>
         Todos los derechos reservados
     </footer>
     <!--bootstrap jc-->
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
