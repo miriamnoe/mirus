@@ -1,0 +1,22 @@
+@media(max-width:992px){
+    .gallery{
+        
+        margin: 30px;
+        
+        grid-template-columns: repeat(2, 1fr);
+        
+}
+
+.gallery__item--1 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.gallery__item--5 {
+    grid-column: span 2;
+}
+.gallery__item--6 {
+    grid-column: span 2;
+    
+}
+
+}
