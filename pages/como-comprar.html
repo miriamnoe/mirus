@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css">
     <link rel="shortcut icon" href="./img/mirus.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/main.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark" >
@@ -46,6 +48,7 @@
 
     
       <section class="hero d-flex justify-content-center align-items-center">
+        <div data-aos="flip-right"></div>
         <h1 class="text-white bg-dark p-2 rounded">Como Comprar</h1>
 
       </section>
@@ -105,5 +108,10 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
