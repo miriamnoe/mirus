@@ -18,10 +18,11 @@ img {
 
 body {
     font-family: roboto;
+    background-color: aliceblue;
 }
 
 .header {
-    background-color: rgb(233, 233, 185);
+    background-color: rgb(233, 185, 185);
     padding: .1rem 0.5rem;
     display: flex;
     align-items: center;
@@ -47,10 +48,11 @@ body {
 a:hover {
     font-weight: bold;
     padding: 10px;
-    background-color: rgb(247, 220, 224);
-    color: rgb(64, 64, 65);
+    background-color: rgb(236, 184, 192);
+    color: rgb(33, 33, 34);
 
 }
+
 
 .hero {
     height: 100vh;
@@ -67,6 +69,12 @@ a:hover {
     justify-content: center;
     align-items: stretch;
 
+
+}
+
+.card-inicio {
+    flex-grow: 1rem;
+   
 }
 .hero-content {
     width: 60%;
@@ -79,25 +87,29 @@ a:hover {
 }
 
 .bienvenida {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 100px;
     display: flex;
 }
 .hero-text {
-    margin-left: 250px;
-    font-size: 2rem;
+    margin-left: 290px;
+    font-size: 1rem;
     display: flex;
+
 }
 
 .subtitulo-inicio {
+    display: flex;
+   
     margin-left: 250px;
     background-color: transparent;
     width: 320px;
     border: 5px inset antiquewhite;
-    display: flex;
+    
+   
 }
 .contenedor {
     margin-top: 10px;
@@ -149,12 +161,16 @@ a:hover {
     margin-top: 10px;
     margin-left: 10px;
 }
+.margin-section {
+    background-color: bisque;
+}
 
 .wpp {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    width: 100px;
+    width: 50px;
+    top: 500px;
 }
 .gallery {
     max-width: 1000px;
@@ -167,7 +183,7 @@ a:hover {
     gap: 1rem;
 }
 .gallery__item{
-    background-color: antiquewhite;
+    background-color: rgb(250, 215, 215);
     position: relative;
     overflow: hidden;
 }
@@ -204,7 +220,7 @@ a:hover {
     right: 0;
     height: 100%;
     transform: translateY(100%);
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.450);
     transition: transform 0.5s ease;
     
 }
