@@ -597,11 +597,11 @@ a:hover {
 
     
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
     .conbox {
-        background-position: 50%;
+    
  
-     grid-template-columns: 2fr;
+     grid-template-columns: 3fr;
      grid-template-rows: repeat(16, 1fr);
      grid-template-areas: 
        "talle1"
