@@ -265,6 +265,7 @@ a:hover {
     grid-area: 1;
     
     
+    
    
 }
 .talle2 {
@@ -396,6 +397,7 @@ a:hover {
         justify-content: center;
         align-items: center;    
 }
+
 .contenedor1 {
     width: 600px;
     height: 600px;
@@ -420,9 +422,15 @@ a:hover {
     list-style-type:"👕";
     font-family: "Roboto"
 }
+
+.container {
+    margin-top: 60px;
+}
 .tipo {
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
 }
+
 .Pijamas {
     width: 300px;
     background-color: black;
@@ -591,6 +599,7 @@ a:hover {
 }
 @media screen and (max-width: 480px) {
     .conbox {
+        background-position: 50%;
  
      grid-template-columns: 2fr;
      grid-template-rows: repeat(16, 1fr);
